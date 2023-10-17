@@ -1,6 +1,7 @@
 /* header and nav layout */
 header .nav-wrapper {
-  background-color: var(--background-color);
+  background-color: #e76716;
+  border-bottom: 1px solid #fb8235;
   width: 100%;
   z-index: 2;
   position: fixed;
@@ -148,7 +149,7 @@ header .nav-brand {
 }
 
 header nav .nav-brand img {
-  width: 128px;
+  width: 160px;
   height: auto;
 }
 
@@ -201,6 +202,7 @@ header nav .nav-sections ul > li > ul > li {
     position: relative;
     padding-right: 16px;
     cursor: pointer;
+    color: #ffffff;
   }
 
   header nav .nav-sections .nav-drop::after {
@@ -273,3 +275,14 @@ header nav .nav-sections ul > li > ul > li {
 header nav .nav-tools {
   grid-area: tools;
 }
+header nav .nav-tools a {
+  color: #FFFFFF;
+  padding: 8px 16px;
+  font-size: 11px;
+  border-radius: 3px;
+  border: 1px solid #ffffff;
+  outline: none;
+  text-decoration: none;
+}
+
+
