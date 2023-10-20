@@ -86,7 +86,7 @@ main .hero img {
 .modal-content {
   background-color: #fefefe;
   margin: auto;
-  padding: 20px;
+  padding: 20px 20px 70px;
   border: 1px solid #888;
   width: 33%;
   border-radius: 12px;
@@ -117,6 +117,14 @@ main .hero img {
   font-weight: 700;
   margin: 15px 0;
 }
+.card-request-form .card-request-msg {
+  color: #000000;
+  font-size: 20px;
+  padding: 40px 40px 20px;
+  line-height: 30px;
+  font-weight: 500;
+  margin: 15px 0;
+}
 .card-request-form .field-label {
   position: relative;
   z-index: 1;
@@ -142,7 +150,43 @@ main .hero img {
 }
 
 
-.card-request-form .submit-button {
+.card-request-form .form-screen-2 {
+  display: none;
+}
+.card-request-form .form-screen-3 {
+  display: none;
+  text-align: center;
+}
+
+
+.card-request-form .checkbox-block {
+  border-radius: 8px;
+  background-color: #f4f4f5;
+  padding: 20px;
+  margin: 20px 0;
+}
+.card-request-form .checkbox-block .field-label {
+  display: inline;
+  padding-left: 10px;
+  font-size: 15px;
+}
+.card-request-form .checkbox-block .field-checkbox {
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+  vertical-align: middle;
+}
+
+
+.card-request-form .back-btn {
+  color: #71717a;
+  font-size: 16px;
+  margin-top: 20px;
+  display: inline-block;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.card-request-form .form-button {
   display: flex;
   margin: 15px 0;
   flex: 0 0 auto;
@@ -158,5 +202,6 @@ main .hero img {
   padding: 8px 16px;
   font-size: .64rem;
   width: min-content;
+  float: right;
   cursor: pointer;
 }
