@@ -235,6 +235,9 @@ main .hero img {
   main .hero picture {
     left: -100px;
   }
+  .modal-content {
+    width: 50%;
+  }
 }
 @media (max-width: 600px) { 
   main .hero {
@@ -259,5 +262,8 @@ main .hero img {
     padding: 15px 20px;
     font-size: 12px;
     margin-left: 10px;
+  }
+  .modal-content {
+    width: 80%;
   }
 }
