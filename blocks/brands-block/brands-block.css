@@ -21,3 +21,14 @@
     font-weight: 700;
     margin: 5% 0;
 }
+
+@media (max-width: 900px) {
+    .brands-block h2 {
+        font-size: 25px;
+    }
+}
+@media (max-width: 600px) {
+    .brands-block h2 {
+        font-size: 25px;
+    }
+}

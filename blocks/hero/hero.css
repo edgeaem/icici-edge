@@ -205,3 +205,59 @@ main .hero img {
   float: right;
   cursor: pointer;
 }
+
+@media (max-width: 1300px) {
+  main .hero {
+    padding: 32px 20px;
+    min-height: 500px;
+  }
+  main .hero h1 {
+    font-size: 30px;
+    max-width: 40%;
+    margin-left: 2%;
+  }
+  main .hero h2 {
+    font-size: 20px;
+    max-width: 40%;
+    margin-left: 2%;
+  }
+  main .hero h3 {
+    padding: 15px 20px;
+    font-size: 15px;
+    margin-left: 2%;
+  }
+}
+@media (max-width: 900px) { 
+  main .hero {
+    padding: 32px 20px;
+    min-height: 400px;
+  }
+  main .hero picture {
+    left: -100px;
+  }
+}
+@media (max-width: 600px) { 
+  main .hero {
+    padding: 10px 20px;
+    min-height: 330px;
+  }
+  main .hero picture {
+    left: -70px;
+  }
+  main .hero h1 {
+    font-size: 22px;
+    max-width: 45%;
+    margin-left: 10px;
+  }
+  main .hero h2 {
+    font-size: 20px;
+    max-width: 40%;
+    margin-left: 10px;
+  }
+  main .hero h3 {
+    padding: 15px 20px;
+    font-size: 12px;
+    margin-left: 10px;
+  }
+}
+

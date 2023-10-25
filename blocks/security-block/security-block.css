@@ -37,3 +37,25 @@
     font-weight: 400;
     color: #52525b;
 }
+
+
+@media (max-width: 1300px) {
+    .security-block {
+      padding: 0 25px !important;
+    }
+    
+}
+@media (max-width: 900px) {
+    .security-block h2 {
+        font-size: 25px;
+    }
+}
+@media (max-width: 600px) {
+    .security-block > div {
+        text-align: center;
+    }
+    .security-block > div div:first-child {
+        width: 100%;
+        display: block;
+    }
+}

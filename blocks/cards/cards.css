@@ -66,3 +66,33 @@
   width: 100%;
   object-fit: cover;
 }
+
+
+
+@media (max-width: 1300px) {
+  .cards-container {
+    padding: 0 25px !important;
+  }
+  .cards > ul { 
+    display: inline-block;
+  }
+  .cards > ul > li { 
+    width: 33.33%;
+    display: inline-block;
+    padding: 1%;
+    box-sizing: border-box;
+  }
+}
+@media (max-width: 900px) {
+  .cards-container h2 {
+    font-size: 25px;
+  }
+}
+@media (max-width: 600px) {
+  .cards > ul > li { 
+    width: 100%;
+    display: inline-block;
+    padding: 1%;
+    box-sizing: border-box;
+  }
+}
