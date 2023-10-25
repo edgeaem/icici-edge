@@ -81,3 +81,23 @@
         margin: 20px auto;
     }
 }
+@media (max-width: 900px) {
+    .top-cards {
+        display: block;
+    }
+    .top-cards > div div {
+        display: block;
+        text-align: center;
+    }
+    .top-cards > div div h2 {
+        font-size: 25px;
+    }
+    .top-cards > div div p {
+        border-left: none;
+        padding-left: initial;
+        margin-left: initial;
+    }
+    .top-cards > div { 
+       display: block;
+    }
+}

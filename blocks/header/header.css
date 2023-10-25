@@ -72,8 +72,8 @@ header nav .nav-hamburger button {
   border: 0;
   border-radius: 0;
   padding: 0;
-  background-color: var(--background-color);
-  color: inherit;
+  background-color: transparent;
+  color: #fff;
   overflow: initial;
   text-overflow: initial;
   white-space: initial;
@@ -177,6 +177,7 @@ header nav .nav-sections ul  {
 
 header nav .nav-sections ul > li {
   font-weight: 700;
+  color: #fff;
 }
 
 header nav .nav-sections ul > li > ul {
@@ -284,5 +285,22 @@ header nav .nav-tools a {
   outline: none;
   text-decoration: none;
 }
+
+
+@media (max-width: 500px) {
+  header nav {
+    gap: 0 10px;
+  }
+  header nav .nav-tools a {
+    padding: 8px;
+  }
+}
+
+
+
+
+
+
+
 
 
